@@ -3,7 +3,7 @@ kind: Kustomization
 namespace: flux-staging
 nameSuffix: staging
 resources:
-- ../../bases/application
+- ../../bases/application/
 - namespace.yaml
 replicas
 - count: 5
